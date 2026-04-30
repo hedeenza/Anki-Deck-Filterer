@@ -1,0 +1,8 @@
+[package]
+name = "anki_deck_filterer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+polars = { version = "0.53.0", features = ["lazy", "strings", "is_in"] }
+
